@@ -1,0 +1,27 @@
+<main id="main">
+    <h1>Catalogue</h1>
+
+        <form class="search" role="search" action="catalogue.html">
+            <label for="q">Rechercher un titre ou un auteur</label>
+            <input type="search" id="q" name="q" placeholder="Ex.: Zola">
+            <label class="checkbox">
+                <input type="checkbox" name="dispo" value="1">Disponibles seulement
+            </label>
+            <button type="submit">Rechercher</button>
+        </form>
+
+        <ul class="book-grid" aria-label="Liste des livres">
+            <li class="book-card">
+                <img src="" alt="">
+                <h2><a href="livre.html">Germinal</a></h2>
+                <p class="author">Emile Zola</p>
+                <p class="badge badge-ok">Disponible</p>
+            </li>
+             <li class="book-card">
+                <img src="" alt="">
+                <h2><a href="livre.html">Test</a></h2>
+                <p class="author">Test</p>
+                <p class="badge badge--ko">Emprunté</p>
+            </li>
+        </ul>
+</main>
