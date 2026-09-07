@@ -8,6 +8,10 @@ Application de gestion de prêts de livre pour une association.
 4. `npm install`
 5. `npm run dev`
 
+##Front-End statique
+- pages dans `public`, CSS mobile first(`token.css` + `style.css`)
+- Testés Lightouse (100 Accessibiility, Best Practice et SEO)
+
 ## Etapes 
 1. Installation des outils
 2. Créer le projet et le dépot git
@@ -25,7 +29,11 @@ Application de gestion de prêts de livre pour une association.
 14. Checklist RGAA
 15. Eco-conception documentation faites
 16. Présentation client, intégrés les retours
-
+17. Etablir l'organisation des fichiers
+18. faire le squellete html
+19. faire mes pages html
+20. faire mon css
+21. tester Lightouse
 
 
 API de test / Health Check: http://localhost:3000/api/health
