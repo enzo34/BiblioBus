@@ -1,0 +1,12 @@
+{
+  "name": "bibliobus",
+  "version": "1.0.0",
+  "description": "Site pour bibliobus",
+  "license": "ISC",
+  "author": "Enzo Clavelloux",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
