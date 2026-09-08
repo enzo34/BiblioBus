@@ -17,10 +17,10 @@
             <input type="hidden" id="id">
 
             <label for="titre">Titre</label>
-            <input type="text" id="titre" required>
+            <input type="text" id="titre" required maxlength="200">
 
             <label for="auteur">Auteur</label>
-            <input type="text" id="auteur" required>
+            <input type="text" id="auteur" required maxlength="100">
 
             <label for="exemplaires">Exemplaires</label>
             <input type="number" id="exemplaires" min="0" value="1" required>
@@ -28,7 +28,7 @@
             <button type="submit" id="button-valider">Ajouter</button>
             <button type="submit" id="button-annuler">Annuler</button>
 
-
+            <p id="erreurs" role="alert"></p>
         </form>
         <ul id="liste"></ul>
         <script src="js/catalogue.js"></script>

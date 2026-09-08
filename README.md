@@ -34,6 +34,12 @@ Application de gestion de prêts de livre pour une association.
 19. faire mes pages html
 20. faire mon css
 21. tester Lightouse
+22. faire l'entité (schema mongoose) sur le backend
+23. faire le controller
+24. faire les routes
+25. tester avec postman
+26. une fois valider faire le crud coté client
+27. répéter l'opération de 22 à 26 autant de fois qu'il y a d'entité
 
 
 API de test / Health Check: http://localhost:3000/api/health
