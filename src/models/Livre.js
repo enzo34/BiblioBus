@@ -13,14 +13,3 @@ const livreSchema = new mongoose.Schema({
 livreSchema.index({ titre: 'text', auteur: 'text' })
 
 module.exports = mongoose.model('Livre', livreSchema);
-
-// Exemple de body JSON à envoyer dans Postman :
-// {
-//   "titre": "Le Petit Prince",
-//   "auteur": "Antoine de Saint-Exupéry",
-//   "isbn": "9782070612758",
-//   "annee": 1943,
-//   "resume": "Un aviateur rencontre un mystérieux petit prince.",
-//   "exemplaires": 3,
-//   "exemplairesDisponibles": 3
-// }

@@ -8,5 +8,6 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', service: 'bibilobus-api' });
 });
 app.use('/api/livres', livreRoutes);
+app.use(express.static('public'));
 
 module.exports = app;
