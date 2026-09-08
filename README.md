@@ -41,5 +41,6 @@ Application de gestion de prêts de livre pour une association.
 26. une fois valider faire le crud coté client
 27. répéter l'opération de 22 à 26 autant de fois qu'il y a d'entité
 
+https://trello.com/b/AiLFuMjW/example
 
 API de test / Health Check: http://localhost:3000/api/health
